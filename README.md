@@ -124,7 +124,7 @@ $: s("bd ~ bd ~")
 
 // Melody controlled by distance
 $: note("c4")
-   .sound("vibraphone_soft")
+   .sound("sawtooth")
    .freq(freq)
    .gain(0.9)
    .release(0.2)
